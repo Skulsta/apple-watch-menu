@@ -19,8 +19,11 @@
                                 <tableRow identifier="RowController" id="f8Z-5D-jfn" customClass="RowController" customModule="watch_match_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="PYS-Mg-NOc">
                                         <items>
-                                            <label width="136" height="58" alignment="center" verticalAlignment="center" text="Label" textAlignment="center" id="enB-xk-eKg"/>
+                                            <label width="136" height="58" alignment="center" verticalAlignment="center" text="Label" textAlignment="center" id="enB-xk-eKg">
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </label>
                                         </items>
+                                        <color key="backgroundColor" red="0.0" green="0.58960725356393962" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </group>
                                     <connections>
                                         <outlet property="rowLabel" destination="enB-xk-eKg" id="d4g-UI-EHW"/>
@@ -35,6 +38,22 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="119.20987654320987" y="93.629441624365469"/>
+        </scene>
+        <!--DetailInterfaceController-->
+        <scene sceneID="ZT4-2y-vwP">
+            <objects>
+                <controller identifier="DetailInterfaceController" id="XLn-V1-cXC" customClass="DetailInterfaceController" customModule="watch_match_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="206" alignment="center" verticalAlignment="center" text="Label" textAlignment="center" id="NPL-ZZ-2FR">
+                            <color key="textColor" red="0.0" green="0.58960725359999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="detailLabel" destination="NPL-ZZ-2FR" id="qWl-Vd-hit"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="433.18518518518516" y="93.629441624365469"/>
         </scene>
     </scenes>
 </document>
