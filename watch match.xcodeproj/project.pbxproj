@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		809D053822ABD348007C701A /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809D053722ABD348007C701A /* RowController.swift */; };
 		80F2BA7722AB83280055ECC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2BA7622AB83280055ECC8 /* AppDelegate.swift */; };
 		80F2BA7922AB83280055ECC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2BA7822AB83280055ECC8 /* ViewController.swift */; };
 		80F2BA7C22AB83280055ECC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F2BA7A22AB83280055ECC8 /* Main.storyboard */; };
@@ -64,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		809D053722ABD348007C701A /* RowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowController.swift; sourceTree = "<group>"; };
 		80F2BA7322AB83280055ECC8 /* watch match.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch match.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F2BA7622AB83280055ECC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80F2BA7822AB83280055ECC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			children = (
 				80F2BA9922AB832D0055ECC8 /* InterfaceController.swift */,
 				80F2BA9B22AB832D0055ECC8 /* ExtensionDelegate.swift */,
+				809D053722ABD348007C701A /* RowController.swift */,
 				80F2BA9D22AB832E0055ECC8 /* Assets.xcassets */,
 				80F2BA9F22AB832E0055ECC8 /* Info.plist */,
 			);
@@ -295,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				809D053822ABD348007C701A /* RowController.swift in Sources */,
 				80F2BA9C22AB832D0055ECC8 /* ExtensionDelegate.swift in Sources */,
 				80F2BA9A22AB832D0055ECC8 /* InterfaceController.swift in Sources */,
 			);
